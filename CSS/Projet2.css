@@ -1,0 +1,60 @@
+@font-face 
+{
+	font-family: 'Raleway';
+	src: url('fonts/Raleway-Medium.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.menu
+{
+	color: #0065FC;
+}
+
+.activités
+{
+	color: black
+}
+
+.Héberge
+{
+	border: 1px solid #F2F2F2;
+	background-color: #F2F2F2;
+	margin: 10px;
+	padding: 15px;
+}
+
+.populaires
+{
+	border: 1px solid #F2F2F2;
+	background-color: #F2F2F2;
+	margin: 10px;
+	padding: 15px;
+}
+
+#conteneur
+{
+	display: flex;
+}
+
+.hébergement
+{
+	width:
+	border: 1px solid white;
+	background-color: white;
+	padding: 2px 2px 3px 2px;
+	margin: 5px;
+	overflow: hidden;
+}
+
+#héberge1
+{
+	display: flex;
+	margin: 5px 5px 5px 5px;
+}
+
+#héberge2
+{
+	display: flex;
+	margin: 5px 5px 5px 5px;
+}
