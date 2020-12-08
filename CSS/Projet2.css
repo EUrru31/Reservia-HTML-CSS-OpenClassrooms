@@ -16,20 +16,65 @@
 	color: black
 }
 
-.Héberge
+
+.nav
 {
-	border: 1px solid #F2F2F2;
-	background-color: #F2F2F2;
-	margin: 10px;
-	padding: 15px;
+	display: flex;
 }
 
-.populaires
+ul
 {
-	border: 1px solid #F2F2F2;
-	background-color: #F2F2F2;
-	margin: 10px;
-	padding: 15px;
+	border: 1px solid white;
+	background-color: white;
+	display: flex;
+	justify-content: space-between	
+}
+
+.img1
+{
+	width: 280px;
+	height: 120px;
+	border-radius: 20px 20px 0 0;
+}
+
+.img2
+{
+	width: 130px;
+	height: 140px;
+	border-radius: 20px 0 0 20px;
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.img3
+{
+	width: auto;
+	height: 470px;
+	border-radius: 20px 20px 0 0;
+}
+
+.img4
+{
+	width: auto;
+	height: 190px;
+}
+
+.img5
+{
+	width: auto;
+	height: 110px;
+}
+
+.img6
+{
+	width: auto;
+	height: 145px;
+}
+
+.img7
+{
+	width: auto;
+	height: 155px;
 }
 
 #conteneur
@@ -37,24 +82,175 @@
 	display: flex;
 }
 
+.Héberge
+{
+	border: 1px solid #F2F2F2;
+	background-color: #F2F2F2;
+	margin: 10px;
+	padding: 15px 20px 10px 20px;
+	border-radius: 20px;
+	width: 66%;
+}
+
 .hébergement
 {
-	width:
 	border: 1px solid white;
 	background-color: white;
 	padding: 2px 2px 3px 2px;
-	margin: 5px;
+	margin: 10px;
 	overflow: hidden;
+	border-radius: 20px;
+	width: 33%;
+	line-height: 1.5rem;
+	box-shadow: 3px 3px 3px 3px #555;
 }
 
 #héberge1
 {
 	display: flex;
-	margin: 5px 5px 5px 5px;
+	margin: 5px 5px 5px 0;
 }
 
 #héberge2
 {
 	display: flex;
-	margin: 5px 5px 5px 5px;
+	margin: 5px 5px 5px 0;
 }
+
+.aff
+{
+	margin: 25px 0 0 15px;
+}
+
+.populaires
+{
+	border: 1px solid #F2F2F2;
+	background-color: #F2F2F2;
+	margin: 10px;
+	padding: 25px 25px 15px 25px;
+	border-radius: 20px;
+	width: 33%;
+}
+
+.popu
+{
+	border: 1px solid white;
+	background-color: white;
+	padding: 2px 2px 3px 2px;
+	margin: 25px 10px 25px 10px;
+	overflow: hidden;
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: 3px 3px 3px 3px #555;
+}
+
+.activ
+{
+	display: flex;
+}
+
+.activité1
+{
+	border: 1px solid white;
+	background-color: white;
+	padding: 0 0 3px 0;
+	margin: 10px;
+	overflow: hidden;
+	border-radius: 20px;
+	line-height: 1.5rem;
+	width: 25%;
+	box-shadow: 3px 3px 3px 3px #555;
+}
+
+.activité2
+{
+	border: 1px solid white;
+	background-color: white;
+	padding: 2px 2px 3px 2px;
+	margin: 10px;
+	overflow: hidden;
+	border-radius: 20px;
+	line-height: 1.5rem;
+	width: 25%;
+}
+
+.activité21
+{
+	border: 1px solid white;
+	background-color: white;
+	padding: 0 0 3px 0;
+	margin: 10px;
+	overflow: hidden;
+	border-radius: 20px;
+	line-height: 1.5rem;
+	box-shadow: 3px 3px 3px 3px #555;
+}
+
+.activité22
+{
+	border: 1px solid white;
+	background-color: white;
+	padding: 0 0 3px 0;
+	margin: 0 10px 10px 10px;
+	overflow: hidden;
+	border-radius: 20px;
+	line-height: 1.5rem;
+	box-shadow: 3px 3px 3px 3px #555;
+}
+
+.activité3
+{
+	border: 1px solid white;
+	background-color: white;
+	padding: 2px 2px 3px 2px;
+	margin: 10px 10px 0 10px;
+	overflow: hidden;
+	border-radius: 20px;
+	line-height: 1.5rem;
+	width: 25%;
+	box-shadow: 3px 3px 3px 3px #555;
+}
+
+.activité4
+{
+	border: 1px solid white;
+	background-color: white;
+	padding: 2px 2px 3px 2px;
+	margin: 10px;
+	overflow: hidden;
+	border-radius: 20px;
+	line-height: 1.5rem;
+	width: 25%;
+	box-shadow: 3px 3px 3px 3px #555;
+}
+
+
+footer
+{
+	width: 100%;
+	border: 1px solid #F2F2F2;
+	background-color: #F2F2F2;
+	display: flex;
+	line-height: 1.5rem;
+	margin-top: 55px;
+}
+
+.element:nth-child(1)
+{
+	width: 33%;
+}
+.element:nth-child(2)
+{
+	width: 33%;
+}	
+.element:nth-child(3)
+{
+	width: 33%;
+}
+
+
+
+
+
+
+
+
