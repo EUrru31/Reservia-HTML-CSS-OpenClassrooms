@@ -1,10 +1,16 @@
 @font-face
 {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     src: url('fonts/Raleway-Medium.ttf');
     src: url('fonts/Raleway-Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+}
+
+body
+{
+	font-family: 'Raleway', sans-serif;
+
 }
 
 .menu
@@ -19,7 +25,7 @@
 
 .logo
 {
-	width: 110px;
+	width: 70px;
 	height: auto;
 }
 
@@ -27,6 +33,8 @@ header
 {
 	display: flex;
 	justify-content: space-between;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .nav
@@ -35,6 +43,35 @@ header
 	border: 1px solid white;
 	width: 40%;
 	justify-content: space-between;
+	margin-top: 20px;
+}
+.titre
+{
+	line-height: 3px;
+	margin-left: 50px;
+}
+
+.sous-titre
+{
+	font-size: 0.80em;
+	margin-left: 50px;
+}
+
+button
+{
+	background-color: #0065FC;
+	color: white;
+	border-radius: 0 10px 10px 0;
+	height: 35px;
+	width: 100px;
+}
+
+input
+{
+	height: 35px;
+	width: 180px;
+	margin-left: 50px;
+	border: 0.5px solid #F2F2F2;
 }
 
 ul
@@ -42,59 +79,93 @@ ul
 	border: 1px solid white;
 	background-color: white;
 	display: flex;
-	justify-content: space-between;	
+	list-style-type: none;
+}
+
+li
+{
+	border: 1px solid black;
+	border-radius: 20px 20px 20px 20px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.filtres:hover
+{
+	background-color: #DEEBFF;
+}
+
+.filtre
+{
+	border: 1px solid white;
+	border-radius: 20px 20px 20px 20px;
+	margin-left: 0;
+}
+
+.logements
+{
+	font-size: 0.80em;
+	margin-left: 50px;
 }
 
 .img1
 {
-	width: 280px;
+	width: 100%;
 	height: 120px;
 	border-radius: 20px 20px 0 0;
+	object-fit: cover;
 }
 
 .img2
 {
-	width: 130px;
+	width: 170px;
 	height: 140px;
 	border-radius: 20px 0 0 20px;
 	float: left;
 	margin: 0 20px 0 0;
+	object-fit: cover;
 }
 
 .img3
 {
-	width: auto;
-	height: 470px;
-	border-radius: 20px 20px 0 0;
+	width: 100%;
+	height: 90%;
+	object-fit: cover;
 }
 
 .img4
 {
-	width: auto;
-	height: 190px;
+	width: 100%;
+	height: 83%;
+	object-fit: cover;
 }
 
 .img5
 {
-	width: auto;
-	height: 110px;
+	width: 100%;
+	height: 70%;
+	object-fit: cover;
 }
 
 .img6
 {
-	width: auto;
-	height: 145px;
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
 }
 
 .img7
 {
-	width: auto;
-	height: 155px;
+	width: 100%;
+	height: 79%;
+	object-fit: cover;
 }
 
 #conteneur
 {
 	display: flex;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 
 .Héberge
@@ -158,20 +229,27 @@ ul
 	box-shadow: 1px 1px 12px #D9D9D9;
 }
 
+.Activité
+{
+	margin-left: 50px;
+	margin-top: 50px;
+	line-height: 0.5rem;
+}
+
 .activ
 {
 	display: flex;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 
 .activité1
 {
 	border: 1px solid white;
-	background-color: white;
 	padding: 0 0 3px 0;
-	margin: 10px;
+	margin: 10px 10px 0 10px;
 	overflow: hidden;
 	border-radius: 20px;
-	line-height: 1.5rem;
 	width: 25%;
 	box-shadow: 1px 1px 12px #D9D9D9;
 }
@@ -180,88 +258,80 @@ ul
 {
 	border: 1px solid white;
 	background-color: white;
-	padding: 2px 2px 3px 2px;
-	margin: 10px;
-	overflow: hidden;
+	padding: 2px 2px 0 2px;
 	border-radius: 20px;
-	line-height: 1.5rem;
 	width: 25%;
+	height: 100%;
 }
 
 .activité21
 {
 	border: 1px solid white;
-	background-color: white;
 	padding: 0 0 3px 0;
 	margin: 10px;
 	overflow: hidden;
 	border-radius: 20px;
-	line-height: 1.5rem;
 	box-shadow: 1px 1px 12px #D9D9D9;
+	height: 330px;
 }
 
 .activité22
 {
 	border: 1px solid white;
-	background-color: white;
 	padding: 0 0 3px 0;
-	margin: 0 10px 10px 10px;
+	margin: 30px 10px 0 10px;
 	overflow: hidden;
 	border-radius: 20px;
-	line-height: 1.5rem;
 	box-shadow: 1px 1px 12px #D9D9D9;
+	height: 180px;
 }
 
 .activité3
 {
 	border: 1px solid white;
-	background-color: white;
-	padding: 2px 2px 3px 2px;
+	padding: 0 0 3px 0;
 	margin: 10px 10px 0 10px;
 	overflow: hidden;
 	border-radius: 20px;
-	line-height: 1.5rem;
 	width: 25%;
 	box-shadow: 1px 1px 12px #D9D9D9;
 }
 
 .activité4
 {
-	margin: 10px;
-	overflow: hidden;
-	line-height: 1.5rem;
+	border: 1px solid white;
+	background-color: white;
+	padding: 2px 2px 0 2px;
+	border-radius: 20px;
 	width: 25%;
 	height: 100%;
-	justify-content: space-between;
-}
-
-.cadre41
-{
-	
 }
 
 .activité41
 {
 	border: 1px solid white;
-	background-color: white;
 	padding: 0 0 3px 0;
 	margin: 10px;
 	overflow: hidden;
 	border-radius: 20px;
-	line-height: 1.5rem;
 	box-shadow: 1px 1px 12px #D9D9D9;
+	height: 250px;
 }
 
 .activité42
 {
 	border: 1px solid white;
-	background-color: white;
 	padding: 0 0 3px 0;
-	margin: 0 10px 10px 10px;
+	margin: 30px 10px 0 10px;
 	overflow: hidden;
 	border-radius: 20px;
-	line-height: 1.5rem;
-	box-shadow: 1px 1px 12px #D9D9D9;	
+	box-shadow: 1px 1px 12px #D9D9D9;
+	height: 260px;
+}
+
+.texte
+{
+	margin-left: 10px;
 }
 
 
@@ -271,21 +341,29 @@ footer
 	border: 1px solid #F2F2F2;
 	background-color: #F2F2F2;
 	display: flex;
-	line-height: 1.5rem;
 	margin-top: 55px;
+	height: auto;
+	font-size: 0.80em;
 }
 
 .element:nth-child(1)
 {
 	width: 33%;
+	margin: 25px;
+	margin-left: 30px;
+	line-height: 2rem;
 }
 .element:nth-child(2)
 {
 	width: 33%;
+	margin: 25px;
+	line-height: 2rem;
 }	
 .element:nth-child(3)
 {
 	width: 33%;
+	margin: 25px;
+	line-height: 2rem;
 }
 
 
