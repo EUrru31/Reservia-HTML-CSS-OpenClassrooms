@@ -1,9 +1,10 @@
-@font-face 
+@font-face
 {
-	font-family: 'Raleway';
-	src: url('fonts/Raleway-Medium.ttf');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Medium.ttf');
+    src: url('fonts/Raleway-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .menu
@@ -13,13 +14,27 @@
 
 .activités
 {
-	color: black
+	color: black;
 }
 
+.logo
+{
+	width: 110px;
+	height: auto;
+}
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+}
 
 .nav
 {
 	display: flex;
+	border: 1px solid white;
+	width: 40%;
+	justify-content: space-between;
 }
 
 ul
@@ -27,7 +42,7 @@ ul
 	border: 1px solid white;
 	background-color: white;
 	display: flex;
-	justify-content: space-between	
+	justify-content: space-between;	
 }
 
 .img1
@@ -102,7 +117,7 @@ ul
 	border-radius: 20px;
 	width: 33%;
 	line-height: 1.5rem;
-	box-shadow: 3px 3px 3px 3px #555;
+	box-shadow: 1px 1px 12px #D9D9D9;
 }
 
 #héberge1
@@ -140,7 +155,7 @@ ul
 	margin: 25px 10px 25px 10px;
 	overflow: hidden;
 	border-radius: 20px 20px 20px 20px;
-	box-shadow: 3px 3px 3px 3px #555;
+	box-shadow: 1px 1px 12px #D9D9D9;
 }
 
 .activ
@@ -158,7 +173,7 @@ ul
 	border-radius: 20px;
 	line-height: 1.5rem;
 	width: 25%;
-	box-shadow: 3px 3px 3px 3px #555;
+	box-shadow: 1px 1px 12px #D9D9D9;
 }
 
 .activité2
@@ -182,7 +197,7 @@ ul
 	overflow: hidden;
 	border-radius: 20px;
 	line-height: 1.5rem;
-	box-shadow: 3px 3px 3px 3px #555;
+	box-shadow: 1px 1px 12px #D9D9D9;
 }
 
 .activité22
@@ -194,7 +209,7 @@ ul
 	overflow: hidden;
 	border-radius: 20px;
 	line-height: 1.5rem;
-	box-shadow: 3px 3px 3px 3px #555;
+	box-shadow: 1px 1px 12px #D9D9D9;
 }
 
 .activité3
@@ -207,20 +222,46 @@ ul
 	border-radius: 20px;
 	line-height: 1.5rem;
 	width: 25%;
-	box-shadow: 3px 3px 3px 3px #555;
+	box-shadow: 1px 1px 12px #D9D9D9;
 }
 
 .activité4
 {
+	margin: 10px;
+	overflow: hidden;
+	line-height: 1.5rem;
+	width: 25%;
+	height: 100%;
+	justify-content: space-between;
+}
+
+.cadre41
+{
+	
+}
+
+.activité41
+{
 	border: 1px solid white;
 	background-color: white;
-	padding: 2px 2px 3px 2px;
+	padding: 0 0 3px 0;
 	margin: 10px;
 	overflow: hidden;
 	border-radius: 20px;
 	line-height: 1.5rem;
-	width: 25%;
-	box-shadow: 3px 3px 3px 3px #555;
+	box-shadow: 1px 1px 12px #D9D9D9;
+}
+
+.activité42
+{
+	border: 1px solid white;
+	background-color: white;
+	padding: 0 0 3px 0;
+	margin: 0 10px 10px 10px;
+	overflow: hidden;
+	border-radius: 20px;
+	line-height: 1.5rem;
+	box-shadow: 1px 1px 12px #D9D9D9;	
 }
 
 
