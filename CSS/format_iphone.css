@@ -68,13 +68,13 @@
 		color: white;
 		border-radius: 0 10px 10px 0;
 		height: 70px;
-		width: 100px;
+		width: 150px;
 	}
 
 	input
 	{
 		height: 70px;
-		width: 70%;
+		width: 50%;
 		margin-left: 50px;
 		border: 0.5px solid #F2F2F2;
 	}
@@ -122,7 +122,7 @@
 	.img2
 	{
 		width: 45%;
-		height: 500px;
+		height: 350px;
 		border-radius: 20px 0 0 20px;
 		float: left;
 		object-fit: cover;
@@ -131,14 +131,14 @@
 	.img1
 	{
 		width: 100%;
-		height: 300px;
+		height: 70%;
 		border-radius: 20px 20px 0 0;
 	}
 
 	.img3
 	{
 		width: 100%;
-		height: 400px;
+		height: 70%;
 		object-fit: cover;
 		border-radius: 20px 0 0 20px;
 	}
@@ -146,7 +146,7 @@
 	.img4
 	{
 		width: 100%;
-		height: 400px;
+		height: 70%;
 		object-fit: cover;
 		border-radius: 20px 0 0 20px;
 	}
@@ -154,7 +154,7 @@
 	.img5
 	{
 		width: 100%;
-		height: 400px;
+		height: 70%;
 		object-fit: cover;
 		border-radius: 20px 0 0 20px;
 	}
@@ -162,7 +162,7 @@
 	.img6
 	{
 		width: 100%;
-		height: 400px;
+		height: 245px;
 		object-fit: cover;
 		border-radius: 20px 0 0 20px;
 	}
@@ -170,7 +170,7 @@
 	.img7
 	{
 		width: 100%;
-		height: 400px;
+		height: 70%;
 		object-fit: cover;
 		border-radius: 20px 0 0 20px;
 	}
@@ -178,10 +178,9 @@
 	.populaires
 	{
 		width: 100%;
-		border: 1px solid #F2F2F2;
 		background-color: #F2F2F2;
 		margin: 0;
-		padding: 10px 0 10px 0px;
+		padding: 0;
 		border-radius: 0 0 0 0;
 		display: flex;
 		flex-direction: column;
@@ -201,18 +200,25 @@
 	
 	.popu
 	{
-		width: 95%;
-		height: 500px;
+		width: 90%;
+		height: 350px;
 		border-radius: 50px;
+		margin: auto;
+		padding: 0;
+		margin-bottom: 25px;
 	}
 	
 	.hébergement
 	{
-		width: 100%;
-		height: 500px;
-		line-height: 3rem;
+		width: 90%;
+		height: 350px;
+		line-height: 2rem;
 		border-radius: 50px;
 		cursor: pointer;
+		margin: auto;
+		padding: 0;
+		font-size: 0.7em;
+		margin-bottom: 25px;
 	}
 	
 	.Héberge
@@ -229,7 +235,8 @@
 	
 	.texte
 	{
-		margin-top: 20px;
+		margin-top: 15px;
+		margin-left: 30px;
 		font-size: 1.5em;
 	}
 
@@ -253,21 +260,24 @@
 		display: flex;
 		flex-direction: column;
 		height: auto;
-		padding: 25px 25px 25px 5px;
+		padding: 0;
 		margin: 0;
+		width: 100%;
 	}
 
 	.activité1
 	{
 		border: 1px solid white;
 		background-color: white;
-		margin: 10px;
+		margin: auto;
+		margin-bottom: 25px;
 		overflow: hidden;
 		border-radius: 50px;
-		width: 100%;
-		height: 500px;
-		line-height: 1.5rem;
+		width: 90%;
+		height: 350px;
+		line-height: 2rem;
 		box-shadow: 1px 1px 12px #D9D9D9;
+		font-size: 0.8em;
 	}
 
 	.activité2
@@ -275,49 +285,56 @@
 		border: 1px solid white;
 		background-color: white;
 		border-radius: 50px;
-		width: 100%;
+		width: 90%;
 		height: auto;
 		display: flex;
 		flex-direction: column;
+		margin: auto;
 	}
 
 	.activité21
 	{
 		border: 1px solid white;
 		background-color: white;
-		margin: 10px;
+		margin: auto;
+		margin-bottom: 25px;
 		overflow: hidden;
 		border-radius: 50px;
 		width: 100%;
-		height: 500px;
-		line-height: 1.5rem;
+		height: 350px;
+		line-height: 2rem;
 		box-shadow: 1px 1px 12px #D9D9D9;
+		font-size: 0.8em;
 	}
 
 	.activité22
 	{
 		border: 1px solid white;
 		background-color: white;
-		margin: 10px;
+		margin: auto;
+		margin-bottom: 25px;
 		overflow: hidden;
 		border-radius: 50px;
 		width: 100%;
-		height: 500px;
-		line-height: 1.5rem;
+		height: 350px;
+		line-height: 2rem;
 		box-shadow: 1px 1px 12px #D9D9D9;
+		font-size: 0.8em;
 	}
 
 	.activité3
 	{
 		border: 1px solid white;
 		background-color: white;
-		margin: 10px;
+		margin: auto;
+		margin-bottom: 25px;
 		overflow: hidden;
 		border-radius: 50px;
-		width: 100%;
-		height: 500px;
-		line-height: 1.5rem;
+		width: 90%;
+		height: 350px;
+		line-height: 2rem;
 		box-shadow: 1px 1px 12px #D9D9D9;
+		font-size: 0.8em;
 	}
 
 	.activité4
@@ -325,36 +342,41 @@
 		border: 1px solid white;
 		background-color: white;
 		border-radius: 50px;
-		width: 100%;
+		width: 90%;
 		height: auto;
 		display: flex;
 		flex-direction: column;
+		margin: auto;
 	}
 
 	.activité41
 	{
 		border: 1px solid white;
 		background-color: white;
-		margin: 10px;
+		margin: auto;
+		margin-bottom: 25px;
 		overflow: hidden;
 		border-radius: 50px;
 		width: 100%;
-		height: 500px;
-		line-height: 1.5rem;
+		height: 350px;
+		line-height: 2rem;
 		box-shadow: 1px 1px 12px #D9D9D9;
+		font-size: 0.8em;
 	}
 
 	.activité42
 	{
 		border: 1px solid white;
 		background-color: white;
-		margin: 10px;
+		margin: auto;
+		margin-bottom: 25px;
 		overflow: hidden;
 		border-radius: 50px;
 		width: 100%;
-		height: 500px;
-		line-height: 1.5rem;
+		height: 350px;
+		line-height: 2rem;
 		box-shadow: 1px 1px 12px #D9D9D9;
+		font-size: 0.8em;
 	}
 
 	footer
@@ -371,6 +393,7 @@
 	{
 		width: 80%;
 		margin: 0;
+		margin-bottom: 25px;
 		padding-left: 25px;
 		line-height: 3rem;
 	}
@@ -379,6 +402,7 @@
 	{
 		width: 80%;
 		margin: 0;
+		margin-bottom: 25px;
 		padding-left: 25px;
 		line-height: 3rem;
 	}	
@@ -387,6 +411,7 @@
 	{
 		width: 80%;
 		margin: 0;
+		margin-bottom: 25px;
 		padding-left: 25px;
 		line-height: 3rem;
 	}
