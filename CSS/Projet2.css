@@ -10,31 +10,14 @@
 body
 {
 	font-family: 'Raleway', sans-serif;
-}
-
-.menu
-{
-	color: #0065FC;
-	margin-right: 50px;
-}
-
-.activités
-{
-	color: black;
-}
-
-.logo
-{
-	width: 85px;
-	height: auto;
+	margin: 0;
 }
 
 header
 {
 	margin-left: 50px;
 	margin-right: 50px;
-	display: flex;
-	justify-content: space-between;
+	
 }
 
 .nav
@@ -45,19 +28,43 @@ header
 	width: 100%;
 	margin-top: 0px;
 	font-size: 1em;
+	align-items: center;
+	vertical-align: middle;
+	padding-top: 5px;
 }
 
-.nav1
+	
+.menu
 {
-	display: flex;
-	justify-content: space-between;
+	color: #0065FC;
 	margin-right: 50px;
-	font-size: 1em;
+	border-top: 2px solid #0065FC;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	vertical-align: middle;
 }
 
-.nav2
+.activités
 {
-	font-size: 1em;
+	color: black;
+}
+
+.menu2
+{
+	color: #0065FC;
+	margin-left: 50px;
+}
+.logo
+{
+	width: 85px;
+	height: auto;
+	margin-right: auto;
+}
+	
+.nav a
+{
+	text-decoration: none;
 }
 
 .titre
@@ -73,6 +80,20 @@ header
 	margin-left: 50px;
 }
 
+.bouton i
+{
+	background-color: #F2F2F2;
+	color: black;
+	border-radius: 10px 0 0 10px;
+	display: inline-block;
+	height: 18px;   
+	width: 18px;
+	align-items: center;
+	justify-content: center;
+	padding: 9px 9px 9px 20px;
+	margin-left: 50px;
+}
+
 button
 {
 	background-color: #0065FC;
@@ -80,14 +101,18 @@ button
 	border-radius: 0 10px 10px 0;
 	height: 35px;
 	width: 100px;
+	border: none;
+}
+
+button i
+{
+	display: none;
 }
 
 input
 {
 	height: 35px;
 	width: 180px;
-	margin-left: 50px;
-	border: 0.5px solid #F2F2F2;
 }
 
 ul
@@ -98,13 +123,31 @@ ul
 	list-style-type: none;
 }
 
+.filtres i
+{
+	background-color: #DEEBFF;
+	color: black;
+	border-radius: 50px;
+	display: inline-block;
+	height: 100%;   
+	width: 32px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
 li
 {
 	font-size: 0.9em;
 	border: 2px solid #D9D9D9;
 	border-radius: 40px;
-	padding: 10px;
 	margin: 10px;
+	align-items: center;
+	justify-content: center;
+	height: 40px;
+	width: auto;
+	padding-right: 15px;
+	display: flex;
+	
 }
 
 .filtres:hover
@@ -116,7 +159,15 @@ li
 {
 	border: 1px solid white;
 	border-radius: 20px 20px 20px 20px;
-	margin-left: 0;
+	margin-left: 10px;
+}
+
+.filtres i 
+{
+	display: flex;
+	align-items: center;
+	vertical-align: middle;
+	padding-left: 10px;
 }
 
 .logements
@@ -135,7 +186,7 @@ li
 
 .img2
 {
-	width: 170px;
+	width: 50%;
 	height: 140px;
 	border-radius: 20px 0 0 20px;
 	float: left;
@@ -148,6 +199,7 @@ li
 	width: 100%;
 	height: 90%;
 	object-fit: cover;
+	border-radius: 20px 20px 0 0;
 }
 
 .img4
@@ -155,6 +207,7 @@ li
 	width: 100%;
 	height: 83%;
 	object-fit: cover;
+	border-radius: 20px 20px 0 0;
 }
 
 .img5
@@ -162,6 +215,7 @@ li
 	width: 100%;
 	height: 70%;
 	object-fit: cover;
+	border-radius: 20px 20px 0 0;
 }
 
 .img6
@@ -169,6 +223,7 @@ li
 	width: 100%;
 	height: 200px;
 	object-fit: cover;
+	border-radius: 20px 20px 0 0;
 }
 
 .img7
@@ -176,6 +231,7 @@ li
 	width: 100%;
 	height: 79%;
 	object-fit: cover;
+	border-radius: 20px 20px 0 0;
 }
 
 #conteneur
@@ -246,6 +302,14 @@ li
 	box-shadow: 1px 1px 12px #D9D9D9;
 }
 
+h3
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	display: flex;
+	justify-content: space-between
+}
+
 .Activité
 {
 	margin-left: 50px;
@@ -262,8 +326,6 @@ li
 
 .activité1
 {
-	border: 1px solid white;
-	padding: 0 0 3px 0;
 	margin: 10px 10px 0 10px;
 	overflow: hidden;
 	border-radius: 20px;
@@ -273,7 +335,6 @@ li
 
 .activité2
 {
-	border: 1px solid white;
 	background-color: white;
 	padding: 2px 2px 0 2px;
 	border-radius: 20px;
@@ -283,8 +344,6 @@ li
 
 .activité21
 {
-	border: 1px solid white;
-	padding: 0 0 3px 0;
 	margin: 10px;
 	overflow: hidden;
 	border-radius: 20px;
@@ -294,8 +353,6 @@ li
 
 .activité22
 {
-	border: 1px solid white;
-	padding: 0 0 3px 0;
 	margin: 30px 10px 0 10px;
 	overflow: hidden;
 	border-radius: 20px;
@@ -305,8 +362,6 @@ li
 
 .activité3
 {
-	border: 1px solid white;
-	padding: 0 0 3px 0;
 	margin: 10px 10px 0 10px;
 	overflow: hidden;
 	border-radius: 20px;
@@ -316,7 +371,6 @@ li
 
 .activité4
 {
-	border: 1px solid white;
 	background-color: white;
 	padding: 2px 2px 0 2px;
 	border-radius: 20px;
@@ -326,8 +380,6 @@ li
 
 .activité41
 {
-	border: 1px solid white;
-	padding: 0 0 3px 0;
 	margin: 10px;
 	overflow: hidden;
 	border-radius: 20px;
@@ -337,8 +389,6 @@ li
 
 .activité42
 {
-	border: 1px solid white;
-	padding: 0 0 3px 0;
 	margin: 30px 10px 0 10px;
 	overflow: hidden;
 	border-radius: 20px;
@@ -349,6 +399,8 @@ li
 .texte
 {
 	margin-left: 10px;
+	font-size: 1em;
+	padding-right: 5px;
 }
 
 
@@ -362,20 +414,26 @@ footer
 	height: auto;
 	font-size: 0.80em;
 }
+footer strong
+{
+	font-size: 1.2em;
+}
 
 .element:nth-child(1)
 {
 	width: 33%;
 	margin: 25px;
-	margin-left: 30px;
+	margin-left: 50px;
 	line-height: 2rem;
 }
+
 .element:nth-child(2)
 {
 	width: 33%;
 	margin: 25px;
 	line-height: 2rem;
-}	
+}
+
 .element:nth-child(3)
 {
 	width: 33%;
