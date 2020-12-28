@@ -3,8 +3,6 @@
 	<head>
 		<meta charset= « utf-8 » />
 		<link rel="stylesheet" href="CSS/Projet2.css" />
-		<link rel="stylesheet" media="screen and (min-width: 377px) and (max-width: 1023px)" href="CSS/format_ipad.css" />
-		<link rel="stylesheet" media="screen and (max-device-width: 376px)" href="CSS/format_iphone.css" />
 		<link rel="stylesheet" href="fontawesome/css/all.css" />
 		<title>Reservia</title>
 	<head>
@@ -13,17 +11,19 @@
 		<header>
 						
 			<div class="nav">
-						<img class="logo" src="images/logo/Reservia@3x.png" /><br />
-						<a class="menu" href="#Hébergements">Hébergements</a><br />
-						<a class="activités" href="#Activités">Activités</a><br />
-						<a class="menu2"><strong>S'inscrire</strong></a><br />
+						<img class="logo" src="images/logo/Reservia@3x.png" />
+					<div class="iphone">	
+						<a class="menu" href="#Hébergements">Hébergements</a>
+						<a class="activités" href="#Activités">Activités</a>
+					</div>
+						<a class="menu2">S'inscrire</a>
 			</div>
 			
 		</header>
 		
 			<p class="titre">
 				
-				<strong>Trouvez votre hébergement pour des vacances de rêve</strong><br />
+				Trouvez votre hébergement pour des vacances de rêve<br />
 			</p>
 			
 			<p class="sous-titre">
@@ -31,15 +31,15 @@
 			</p>
 			
 			<p class="bouton">
-				<i class="fas fa-map-marker-alt"></i><input type="search" /><button><strong>Rechercher</strong></button>
+				<i class="fas fa-map-marker-alt"></i><input type="search" /><button>Rechercher</button>
 			</p>
 			
 			<ul>
 				<li class="filtre"><strong>Filtres</strong>
-				<li class="filtres"><i class="fas fa-money-bill-wave" style="color:#0065FC"></i><strong>Economique</strong></li>
-				<li class="filtres"><i class="fas fa-child" style="color:#0065FC"></i><strong>Familial</strong></li>
-				<li class="filtres"><i class="fas fa-heart" style="color:#0065FC"></i><strong>Romantique</strong></li>
-				<li class="filtres"><i class="fas fa-dog" style="color:#0065FC"></i><strong>Animaux autorisés</strong></li>
+				<li class="filtres"><i class="fas fa-money-bill-wave" style="color:#0065FC"></i>Economique</li>
+				<li class="filtres"><i class="fas fa-child" style="color:#0065FC"></i>Familial</li>
+				<li class="filtres"><i class="fas fa-heart" style="color:#0065FC"></i>Romantique</li>
+				<li class="filtres"><i class="fas fa-dog" style="color:#0065FC"></i>Animaux autorisés</li>
 			</ul>
 			
 			<section>
@@ -60,7 +60,7 @@
 						<div class="hébergement" onclick="location.href='page_lien.html';"style="cursor:pointer;">
 						
 							<img class="img1" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" />
-							<p class="texte"><strong>Auberge la Cannebière</strong><br />
+							<p class="texte1"><strong>Auberge la Cannebière</strong><br />
 							Nuit à partir de <strong>25€</strong><br />
 							<i class="fas fa-star" style="color:#0065FC"></i>
 							<i class="fas fa-star" style="color:#0065FC"></i>
@@ -72,7 +72,7 @@
 					
 						<div class="hébergement" onclick="location.href='page_lien.html';"style="cursor:pointer;">
 							<img class="img1" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" />
-							<p class="texte"><strong>Hôtel du port</strong><br />
+							<p class="texte1"><strong>Hôtel du port</strong><br />
 							Nuit à partir de <strong>52€</strong><br />
 							<i class="fas fa-star" style="color:#0065FC"></i>
 							<i class="fas fa-star" style="color:#0065FC"></i>
@@ -84,7 +84,7 @@
 					
 						<div class="hébergement" onclick="location.href='page_lien.html';"style="cursor:pointer;">
 							<img class="img1" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" />
-							<p class="texte"><strong>Hôtel Les mouettes</strong><br />
+							<p class="texte1"><strong>Hôtel Les mouettes</strong><br />
 							Nuit à partir de <strong>76€</strong><br />
 							<i class="fas fa-star" style="color:#0065FC"></i>
 							<i class="fas fa-star" style="color:#0065FC"></i>
@@ -98,7 +98,7 @@
 					<div id="héberge2">
 						<div class="hébergement" onclick="location.href='page_lien.html';"style="cursor:pointer;">
 							<img class="img1" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" />
-							<p class="texte"><strong>Hôtel de la mer</strong><br />
+							<p class="texte1"><strong>Hôtel de la mer</strong><br />
 							Nuit à partir de <strong>46€</strong><br />
 							<i class="fas fa-star" style="color:#0065FC"></i>
 							<i class="fas fa-star" style="color:#0065FC"></i>
@@ -110,7 +110,7 @@
 					
 						<div class="hébergement" onclick="location.href='page_lien.html';"style="cursor:pointer;">
 							<img class="img1" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" />
-							<p class="texte"><strong>Auberge Le Panier</strong><br />
+							<p class="texte1"><strong>Auberge Le Panier</strong><br />
 							Nuit à partir de <strong>23€</strong><br />
 							<i class="fas fa-star" style="color:#0065FC"></i>
 							<i class="fas fa-star" style="color:#0065FC"></i>
@@ -122,7 +122,7 @@
 					
 						<div class="hébergement" onclick="location.href='page_lien.html';"style="cursor:pointer;">
 							<img class="img1" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" />
-							<p class="texte"><strong>Hôtel chez Amina</strong><br />
+							<p class="texte1"><strong>Hôtel chez Amina</strong><br />
 							Nuit à partir de <strong>96€</strong><br />
 							<i class="fas fa-star" style="color:#0065FC"></i>
 							<i class="fas fa-star" style="color:#0065FC"></i>
@@ -144,41 +144,50 @@
 					<div class="Populaire">
 						<div class="popu" onclick="location.href='page_lien.html';"style="cursor:pointer;">
 							<img class="img2" src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" /> 
-							<p class="texte"><strong>Hôtel Le soleil du matin</strong><br/ >
-							Nuit à partir de 128€<br />
-							</p>
-							<i class="fas fa-star" style="color:#0065FC"></i>
-							<i class="fas fa-star" style="color:#0065FC"></i>
-							<i class="fas fa-star" style="color:#0065FC"></i>
-							<i class="fas fa-star" style="color:#0065FC"></i>
-							<i class="fas fa-star" style="color:#0065FC"></i>
-							
+							<div class="texte">
+								<p class="texte2"><strong>Hôtel Le soleil du matin</strong><br/ >
+								Nuit à partir de 128€<br />
+								</p>
+								<p class="etoile">
+									<i class="fas fa-star" style="color:#0065FC"></i>
+									<i class="fas fa-star" style="color:#0065FC"></i>
+									<i class="fas fa-star" style="color:#0065FC"></i>
+									<i class="fas fa-star" style="color:#0065FC"></i>
+									<i class="fas fa-star" style="color:#0065FC"></i>
+								</p>
+							</div>
 						</div>
 						
 						<div class="popu" onclick="location.href='page_lien.html';"style="cursor:pointer;">
 							<img class="img2" src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" />
-							<p class="texte"><strong>Au coeur de l'eau Chambre d'hôtes</strong><br />
-							Nuit à partir de 71€<br />
-							</p>
-							<i class="fas fa-star" style="color:#0065FC"></i>
-							<i class="fas fa-star" style="color:#0065FC"></i>
-							<i class="fas fa-star" style="color:#0065FC"></i>
-							<i class="fas fa-star" style="color:#0065FC"></i>
-							<i class="fas fa-star" style="color:#F2F2F2"></i>
-							
+							<div class="texte">
+								<p class="texte2"><strong>Au coeur de l'eau Chambre d'hôtes</strong><br />
+								Nuit à partir de 71€<br />
+								</p>
+								<p class="etoile">
+									<i class="fas fa-star" style="color:#0065FC"></i>
+									<i class="fas fa-star" style="color:#0065FC"></i>
+									<i class="fas fa-star" style="color:#0065FC"></i>
+									<i class="fas fa-star" style="color:#0065FC"></i>
+									<i class="fas fa-star" style="color:#F2F2F2"></i>
+								</p>
+							</div>
 						</div>
 						
 						<div class="popu" onclick="location.href='page_lien.html';"style="cursor:pointer;">
 							<img class="img2" src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" />
-							<p class="texte"><strong>Hôtel Tout bleu et Blanc</strong><br />
-							Nuit à partir de 68€<br />
-							</p>
-							<i class="fas fa-star" style="color:#0065FC"></i>
-							<i class="fas fa-star" style="color:#0065FC"></i>
-							<i class="fas fa-star" style="color:#0065FC"></i>
-							<i class="fas fa-star" style="color:#0065FC"></i>
-							<i class="fas fa-star" style="color:#F2F2F2"></i>
-							
+							<div class="texte">
+								<p class="texte2"><strong>Hôtel Tout bleu et Blanc</strong><br />
+								Nuit à partir de 68€<br />
+								</p>
+								<p class="etoile">
+									<i class="fas fa-star" style="color:#0065FC"></i>
+									<i class="fas fa-star" style="color:#0065FC"></i>
+									<i class="fas fa-star" style="color:#0065FC"></i>
+									<i class="fas fa-star" style="color:#0065FC"></i>
+									<i class="fas fa-star" style="color:#F2F2F2"></i>
+								</p>
+							</div>
 						</div>
 					</div>
 				</section>
@@ -193,7 +202,7 @@
 						
 							<div class="activité1" onclick="location.href='page_lien.html';"style="cursor:pointer;">
 								<img class="img3" src="images/activités/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" />
-								<p class="texte"><strong>Vieux Port</strong>
+								<p class="texte3">Vieux Port
 								</p>
 							</div>
 					
@@ -201,13 +210,13 @@
 						
 								<div class="activité21" onclick="location.href='page_lien.html';"style="cursor:pointer;">
 									<img class="img4" src="images/activités/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" />
-									<p class="texte"><strong>Fort de Pomègues</strong>
+									<p class="texte3">Fort de Pomègues
 									</p>
 								</div>
 								
 								<div class="activité22" onclick="location.href='page_lien.html';"style="cursor:pointer;">
 									<img class="img5" src="images/activités/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" />
-									<p class="texte"><strong>Iles du Frioul</strong>
+									<p class="texte3">Iles du Frioul
 									</p>
 								</div>
 							</div>
@@ -215,7 +224,7 @@
 						
 							<div class="activité3" onclick="location.href='page_lien.html';"style="cursor:pointer;">
 								<img class="img3" src="images/activités/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" />
-								<p class="texte"><strong>Parc National des Calanques</strong>
+								<p class="texte3">Parc National des Calanques
 								</p>
 							</div>
 						
@@ -224,13 +233,13 @@
 									<div class="cadre41">
 										<img class="img6"src="images/activités/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" />
 									</div>
-									<p class="texte"><strong>Notre-Dame-de-la-Garde</strong>
+									<p class="texte3">Notre-Dame-de-la-Garde
 									</p>
 								</div>
 								
 								<div class="activité42" onclick="location.href='page_lien.html';"style="cursor:pointer;">
 									<img class="img7" src="images/activités/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" />
-									<p class="texte"><strong>Parc Longchamp</strong>
+									<p class="texte3">Parc Longchamp
 									</p>
 								</div>
 							</div>
