@@ -487,19 +487,17 @@ footer strong
 	line-height: 2rem;
 }
 
-@media screen and (max-device-width: 480px)
+@media all and (max-width: 480px)
 {
 
 	header
 	{
 	margin-left: 0;
 	margin-right: 0;
-	font-size: 1.2em;
 	}
 
 	.logo
 	{
-		width: 300px;
 		height: auto;
 		margin-left: 40px;
 	}
@@ -508,7 +506,6 @@ footer strong
 	{
 		width: 100%;
 		margin: 0;
-		font-size: 2em;
 	}
 	
 	.nav
@@ -576,7 +573,6 @@ footer strong
 		border-radius: 0 10px 10px 0;
 		height: 70px;
 		width: 130px;
-		font-size: 0.6em;
 	}
 
 	input
@@ -598,20 +594,16 @@ footer strong
 	
 	.titre
 	{
-		line-height: 3rem;
-		font-size: 1.6em;
 		margin-left: 30px;
 	}
 	
 	.sous-titre .logements
 	{
-		font-size: 0.6em;
 		margin-left: 30px;
 	}
 	
 	.logements
 	{
-		font-size: 30px;
 		height: 30px;
 	}
 	
@@ -637,7 +629,6 @@ footer strong
 
 	li
 	{
-		font-size: 2em;
 		border: 2px solid #D9D9D9;
 		border-radius: 50px;
 		margin: 10px;
@@ -748,7 +739,6 @@ footer strong
 	
 	h3
 	{
-		font-size: 1.6em;
 		padding-left: 40px;
 		padding-right: 50px;
 	}
@@ -762,11 +752,6 @@ footer strong
 	.popu
 	{
 		width: 100%;
-	}
-	
-	.popu i
-	{
-		font-size: 2em;
 	}
 	
 	.hébergement
@@ -795,8 +780,6 @@ footer strong
 	{
 		margin-top: 15px;
 		margin-left: 30px;
-		font-size: 1.9em;
-		line-height: 1.5em;
 	}
 
 	#héberge1
@@ -839,9 +822,7 @@ footer strong
 		border-radius: 50px;
 		width: 100%;
 		height: 350px;
-		line-height: 2rem;
 		box-shadow: 1px 1px 12px #D9D9D9;
-		font-size: 0.6em;
 	}
 
 	.activité2
@@ -866,9 +847,7 @@ footer strong
 		border-radius: 50px;
 		width: 100%;
 		height: 350px;
-		line-height: 2rem;
 		box-shadow: 1px 1px 12px #D9D9D9;
-		font-size: 0.6em;
 	}
 
 	.activité22
@@ -881,9 +860,7 @@ footer strong
 		border-radius: 50px;
 		width: 100%;
 		height: 350px;
-		line-height: 2rem;
 		box-shadow: 1px 1px 12px #D9D9D9;
-		font-size: 0.6em;
 	}
 
 	.activité3
@@ -896,9 +873,7 @@ footer strong
 		border-radius: 50px;
 		width: 90%;
 		height: 350px;
-		line-height: 2rem;
 		box-shadow: 1px 1px 12px #D9D9D9;
-		font-size: 0.6em;
 	}
 
 	.activité4
@@ -923,9 +898,7 @@ footer strong
 		border-radius: 50px;
 		width: 100%;
 		height: 350px;
-		line-height: 2rem;
 		box-shadow: 1px 1px 12px #D9D9D9;
-		font-size: 0.6em;
 	}
 
 	.activité42
@@ -938,16 +911,13 @@ footer strong
 		border-radius: 50px;
 		width: 100%;
 		height: 350px;
-		line-height: 2rem;
 		box-shadow: 1px 1px 12px #D9D9D9;
-		font-size: 0.6em;
 	}
 
 	footer
 	{
 		display: flex;
 		flex-direction: column;
-		font-size: 0.8em;
 		margin-right: 0;
 		margin-left: 0;
 		width: 100%;
@@ -959,7 +929,6 @@ footer strong
 		margin: 0;
 		margin-bottom: 25px;
 		padding-left: 25px;
-		line-height: 3rem;
 	}
 	
 	.element:nth-child(2)
@@ -968,7 +937,6 @@ footer strong
 		margin: 0;
 		margin-bottom: 25px;
 		padding-left: 25px;
-		line-height: 3rem;
 	}	
 	
 	.element:nth-child(3)
@@ -977,7 +945,6 @@ footer strong
 		margin: 0;
 		margin-bottom: 25px;
 		padding-left: 25px;
-		line-height: 3rem;
 	}
 
 }
@@ -986,7 +953,6 @@ footer strong
 {
 	.logo
 	{
-		width: 200px;
 		height: auto;
 	}
 	
@@ -994,7 +960,6 @@ footer strong
 	{
 		width: 100%;
 		margin: 0;
-		font-size: 2em;
 	}
 	
 	header
@@ -1016,14 +981,8 @@ footer strong
 		display: flex;
 		justify-content: space-between;
 		margin-right: 50px;
-		font-size: 0.7em;
 	}
-
-	.nav2
-	{
-		font-size: 0.7em;
-	}
-		
+	
 	.bouton
 	{
 		width: 100%;
@@ -1049,7 +1008,6 @@ footer strong
 		border-radius: 0 10px 10px 0;
 		height: 70px;
 		width: 130px;
-		font-size: 0.6em;
 	}
 
 	input
@@ -1071,26 +1029,21 @@ footer strong
 	
 	.titre
 	{
-		line-height: 2rem;
-		font-size: 1em;
 		margin-left: 30px;
 	}
 	
 	.sous-titre
 	{
-		font-size: 0.7em;
 		margin-left: 30px;
 	}
 	
 	.logements
 	{
-		font-size: 0.5em;
 		margin-left: 30px;
 	}
 	
 	ul
 	{
-		font-size: 0.7em;
 		display: flex;
 		flex-wrap: wrap;
 		padding-left: 30px;
@@ -1186,7 +1139,6 @@ footer strong
 	
 	.popu
 	{
-		font-size: 0.5em;
 		height: 250px;
 		width: 30%;
 		border-radius: 50px;
@@ -1204,8 +1156,6 @@ footer strong
 	{
 		width: 33%;
 		height: 250px;
-		font-size: 0.4em;
-		line-height: 1.5rem;
 		border-radius: 50px;
 		cursor: pointer;
 	}
@@ -1224,7 +1174,6 @@ footer strong
 	
 	.aff
 	{
-		font-size: 0.8em;
 		padding-left: 22px;
 	}
 	
@@ -1232,21 +1181,18 @@ footer strong
 	{
 		margin-top: 10px;
 		margin-left: 20px;
-		font-size: 1.5em;
 	}
 	
 	.texte2
 	{
 		margin-top: 10px;
 		margin-left: 5px;
-		font-size: 1.5em;
 	}
 	
 	.texte3
 	{
 		margin-top: 20px;
 		margin-left: 20px;
-		font-size: 1.5em;
 	}
 	
 	.Activité
@@ -1283,8 +1229,6 @@ footer strong
 		border-radius: 50px;
 		width: 30%;
 		height: 250px;
-		line-height: 1.5rem;
-		font-size: 0.5em;
 		box-shadow: 1px 1px 12px #D9D9D9;
 	}
 
@@ -1307,8 +1251,6 @@ footer strong
 		border-radius: 50px;
 		width: 100%;
 		height: 250px;
-		line-height: 1.5rem;
-		font-size: 0.5em;
 		box-shadow: 1px 1px 12px #D9D9D9;
 	}
 
@@ -1321,8 +1263,6 @@ footer strong
 		border-radius: 50px;
 		width: 100%;
 		height: 250px;
-		line-height: 1.5rem;
-		font-size: 0.5em;
 		box-shadow: 1px 1px 12px #D9D9D9;
 	}
 
@@ -1335,8 +1275,6 @@ footer strong
 		border-radius: 50px;
 		width: 30%;
 		height: 250px;
-		line-height: 1.5rem;
-		font-size: 0.5em;
 		box-shadow: 1px 1px 12px #D9D9D9;
 	}
 
@@ -1359,8 +1297,6 @@ footer strong
 		border-radius: 50px;
 		width: 100%;
 		height: 250px;
-		line-height: 1.5rem;
-		font-size: 0.5em;
 		box-shadow: 1px 1px 12px #D9D9D9;
 	}
 
@@ -1373,8 +1309,6 @@ footer strong
 		border-radius: 50px;
 		width: 100%;
 		height: 250px;
-		line-height: 1.5rem;
-		font-size: 0.5em;
 		box-shadow: 1px 1px 12px #D9D9D9;
 	}
 
@@ -1382,7 +1316,6 @@ footer strong
 	{
 		display: flex;
 		flex-direction: column;
-		font-size: 0.6em;
 		margin-right: 0;
 		margin-left: 0;
 		padding-top: 30px;
@@ -1394,7 +1327,6 @@ footer strong
 		width: 80%;
 		margin: 0;
 		padding-left: 25px;
-		line-height: 3rem;
 	}
 	
 	.element:nth-child(2)
@@ -1402,7 +1334,6 @@ footer strong
 		width: 80%;
 		margin: 0;
 		padding-left: 25px;
-		line-height: 3rem;
 	}	
 	
 	.element:nth-child(3)
@@ -1410,6 +1341,5 @@ footer strong
 		width: 80%;
 		margin: 0;
 		padding-left: 25px;
-		line-height: 3rem;
 	}
 }
