@@ -27,7 +27,6 @@ header
 	margin-top: 0px;
 	font-size: 1em;
 	align-items: center;
-	vertical-align: middle;
 	padding-top: 5px;
 }
 
@@ -35,7 +34,6 @@ header
 {
 	display: flex;
 	align-items: center;
-	vertical-align: middle;
 }
 
 .menu
@@ -46,7 +44,6 @@ header
 	height: 100px;
 	display: flex;
 	align-items: center;
-	vertical-align: middle;
 }
 
 .activités
@@ -74,7 +71,6 @@ header
 
 .titre
 {
-	line-height: 10px;
 	margin-left: 50px;
 	font-size: 1.2em;
 	font-weight: bold;
@@ -247,6 +243,23 @@ li
 	border-radius: 20px 20px 0 0;
 }
 
+.texte1
+	{
+		margin-left: 20px;
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+	
+	.texte2
+	{
+		margin-left: 5px;
+	}
+	
+	.texte3
+	{
+		margin-left: 20px;
+	}
+
 #conteneur
 {
 	display: flex;
@@ -287,6 +300,11 @@ li
 {
 	display: flex;
 	margin: 5px 5px 5px 0;
+}
+
+.Héberge i
+{
+	font-size: 0.9em;
 }
 
 .aff
@@ -487,19 +505,11 @@ footer strong
 	line-height: 2rem;
 }
 
-@media all and (max-width: 480px)
+@media screen and (min-width: 481px) and (max-width: 1024px)
 {
-
-	header
-	{
-	margin-left: 0;
-	margin-right: 0;
-	}
-
 	.logo
 	{
 		height: auto;
-		margin-left: 40px;
 	}
 	
 	body
@@ -508,6 +518,14 @@ footer strong
 		margin: 0;
 	}
 	
+	header
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+		
 	.nav
 	{
 		display: flex;
@@ -548,440 +566,6 @@ footer strong
 		align-items: center;
 	}
 	
-.bouton
-	{
-		width: 100%;
-	}
-	
-	.bouton i
-{
-	background-color: #F2F2F2;
-	color: black;
-	border-radius: 10px 0 0 10px;
-	display: inline-block;
-	height: 50px;   
-	width: 70px;
-	display: flex;
-	padding: 9px 9px 9px 9px;
-	margin-left: 30px;
-}
-	
-	button
-	{
-		background-color: #0065FC;
-		color: white;
-		border-radius: 0 10px 10px 0;
-		height: 70px;
-		width: 130px;
-	}
-
-	input
-	{
-		height: 70px;
-		width: 50%;
-		border: 0.5px solid #F2F2F2;
-	}
-
-
-	#conteneur
-	{
-		display: flex;
-		flex-direction: column-reverse;
-		padding: 0;
-		margin: 0;
-		width: 100%;
-	}
-	
-	.titre
-	{
-		margin-left: 30px;
-	}
-	
-	.sous-titre .logements
-	{
-		margin-left: 30px;
-	}
-	
-	.logements
-	{
-		height: 30px;
-	}
-	
-	ul
-	{
-		border: 1px solid white;
-		background-color: white;
-		display: flex;
-		list-style-type: none;
-	}
-
-	.filtres i
-	{
-		background-color: #DEEBFF;
-		color: black;
-		border-radius: 50px;
-		display: inline-block;
-		height: 100%;   
-		width: 90px;
-		margin-right: 30px;
-		display: flex;
-	}
-
-	li
-	{
-		border: 2px solid #D9D9D9;
-		border-radius: 50px;
-		margin: 10px;
-		align-items: center;
-		justify-content: center;
-		height: 100px;
-		width: auto;
-		padding-right: 30px;
-		display: flex;
-	}
-
-	.filtres:hover
-	{
-		background-color: #DEEBFF;
-	}
-
-	.filtre
-	{
-		margin-left: 10px;
-		width: 600px;
-		display: flex;
-		justify-content: flex-start;
-	}
-
-	.filtres i 
-	{
-		display: flex;
-		align-items: center;
-		vertical-align: middle;
-		padding-left: 10px;
-	}
-	
-	.logements
-	{
-		margin-right: 40px;
-	}
-	
-	.img2
-	{
-		width: 45%;
-		height: 95%;
-		border-radius: 50px 0 0 50px;
-		float: left;
-		object-fit: cover;
-		padding: 10px;
-		vertical-align: middle;
-	}
-
-	.img1
-	{
-		width: 98%;
-		height: 250px;
-		border-radius: 50px 50px 0 0;
-		padding: 10px;
-		align-items: center;
-	}
-
-	.img3
-	{
-		width: 100%;
-		height: 70%;
-		object-fit: cover;
-		border-radius: 50px 0 0 50px;
-	}
-
-	.img4
-	{
-		width: 100%;
-		height: 70%;
-		object-fit: cover;
-		border-radius: 50px 0 0 50px;
-	}
-
-	.img5
-	{
-		width: 100%;
-		height: 70%;
-		object-fit: cover;
-		border-radius: 50px 0 0 50px;
-	}
-
-	.img6
-	{
-		width: 100%;
-		height: 245px;
-		object-fit: cover;
-		border-radius: 50px 0 0 50px;
-	}
-
-	.img7
-	{
-		width: 100%;
-		height: 70%;
-		object-fit: cover;
-		border-radius: 50px 0 0 50px;
-	}
-	
-	.populaires
-	{
-		width: 100%;
-		background-color: #F2F2F2;
-		margin: 0;
-		padding: 0;
-		border-radius: 0 0 0 0;
-		display: flex;
-		flex-direction: column;
-	}
-	
-	h3
-	{
-		padding-left: 40px;
-		padding-right: 50px;
-	}
-	
-	.Populaire
-	{
-		display: flex;
-		flex-direction: column;
-	}	
-	
-	.popu
-	{
-		width: 100%;
-	}
-	
-	.hébergement
-	{
-		width: 90%;
-		height: auto;
-		border-radius: 50px;
-		cursor: pointer;
-		padding: 0;
-		margin-bottom: 25px;
-	}
-	
-	.Héberge
-	{
-		background-color: white;
-		border: 1px solid white;
-		border-radius: 50px;
-		width: 100%;
-		height: auto;
-		margin: 0;
-		padding-left: 0px;
-		padding-right: 0px;
-	}
-	
-	.texte
-	{
-		margin-top: 15px;
-		margin-left: 30px;
-	}
-
-	#héberge1
-	{
-		display: flex;
-		flex-direction: column;
-		margin: 0;
-		width: 100%;
-	}
-
-	#héberge2
-	{
-		display: flex;
-		flex-direction: column;
-		margin: 0;
-	}
-	
-	.aff
-	{
-		padding-left: 35px;
-	}
-	
-	.activ
-	{
-		display: flex;
-		flex-direction: column;
-		height: auto;
-		padding-right: 0;
-		margin: 0;
-		width: 100%;
-	}
-
-	.activité1
-	{
-		border: 1px solid white;
-		background-color: white;
-		margin: auto;
-		margin-bottom: 25px;
-		overflow: hidden;
-		border-radius: 50px;
-		width: 100%;
-		height: 350px;
-		box-shadow: 1px 1px 12px #D9D9D9;
-	}
-
-	.activité2
-	{
-		border: 1px solid white;
-		background-color: white;
-		border-radius: 50px;
-		width: 100%;
-		height: auto;
-		display: flex;
-		flex-direction: column;
-		margin: auto;
-	}
-
-	.activité21
-	{
-		border: 1px solid white;
-		background-color: white;
-		margin: auto;
-		margin-bottom: 25px;
-		overflow: hidden;
-		border-radius: 50px;
-		width: 100%;
-		height: 350px;
-		box-shadow: 1px 1px 12px #D9D9D9;
-	}
-
-	.activité22
-	{
-		border: 1px solid white;
-		background-color: white;
-		margin: auto;
-		margin-bottom: 25px;
-		overflow: hidden;
-		border-radius: 50px;
-		width: 100%;
-		height: 350px;
-		box-shadow: 1px 1px 12px #D9D9D9;
-	}
-
-	.activité3
-	{
-		border: 1px solid white;
-		background-color: white;
-		margin: auto;
-		margin-bottom: 25px;
-		overflow: hidden;
-		border-radius: 50px;
-		width: 90%;
-		height: 350px;
-		box-shadow: 1px 1px 12px #D9D9D9;
-	}
-
-	.activité4
-	{
-		border: 1px solid white;
-		background-color: white;
-		border-radius: 50px;
-		width: 90%;
-		height: auto;
-		display: flex;
-		flex-direction: column;
-		margin: auto;
-	}
-
-	.activité41
-	{
-		border: 1px solid white;
-		background-color: white;
-		margin: auto;
-		margin-bottom: 25px;
-		overflow: hidden;
-		border-radius: 50px;
-		width: 100%;
-		height: 350px;
-		box-shadow: 1px 1px 12px #D9D9D9;
-	}
-
-	.activité42
-	{
-		border: 1px solid white;
-		background-color: white;
-		margin: auto;
-		margin-bottom: 25px;
-		overflow: hidden;
-		border-radius: 50px;
-		width: 100%;
-		height: 350px;
-		box-shadow: 1px 1px 12px #D9D9D9;
-	}
-
-	footer
-	{
-		display: flex;
-		flex-direction: column;
-		margin-right: 0;
-		margin-left: 0;
-		width: 100%;
-	}
-
-	.element:nth-child(1)
-	{
-		width: 80%;
-		margin: 0;
-		margin-bottom: 25px;
-		padding-left: 25px;
-	}
-	
-	.element:nth-child(2)
-	{
-		width: 80%;
-		margin: 0;
-		margin-bottom: 25px;
-		padding-left: 25px;
-	}	
-	
-	.element:nth-child(3)
-	{
-		width: 80%;
-		margin: 0;
-		margin-bottom: 25px;
-		padding-left: 25px;
-	}
-
-}
-
-@media screen and (min-width: 481px) and (max-width: 1024px)
-{
-	.logo
-	{
-		height: auto;
-	}
-	
-	body
-	{
-		width: 100%;
-		margin: 0;
-	}
-	
-	header
-	{
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
-	}
-		
-	.nav
-	{
-		display: flex;
-		justify-content: flex-end;
-	}
-
-	.nav1
-	{
-		display: flex;
-		justify-content: space-between;
-		margin-right: 50px;
-	}
 	
 	.bouton
 	{
@@ -989,30 +573,27 @@ footer strong
 	}
 	
 	.bouton i
-{
-	background-color: #F2F2F2;
-	color: black;
-	border-radius: 10px 0 0 10px;
-	display: inline-block;
-	height: 50px;   
-	width: 70px;
-	display: flex;
-	padding: 9px 9px 9px 9px;
-	margin-left: 30px;
-}
+	{
+		background-color: #F2F2F2;
+		color: black;
+		border-radius: 10px 0 0 10px;
+		display: inline-block;
+		width: 70px;
+		display: flex;
+		padding: 9px 9px 9px 9px;
+		margin-left: 30px;
+	}
 	
 	button
 	{
 		background-color: #0065FC;
 		color: white;
 		border-radius: 0 10px 10px 0;
-		height: 70px;
-		width: 130px;
+			width: 130px;
 	}
 
 	input
 	{
-		height: 70px;
 		width: 50%;
 		border: 0.5px solid #F2F2F2;
 	}
@@ -1177,24 +758,6 @@ footer strong
 		padding-left: 22px;
 	}
 	
-	.texte1
-	{
-		margin-top: 10px;
-		margin-left: 20px;
-	}
-	
-	.texte2
-	{
-		margin-top: 10px;
-		margin-left: 5px;
-	}
-	
-	.texte3
-	{
-		margin-top: 20px;
-		margin-left: 20px;
-	}
-	
 	.Activité
 	{
 	margin-left: 10px;
@@ -1343,3 +906,462 @@ footer strong
 		padding-left: 25px;
 	}
 }
+
+@media all and (max-width: 480px)
+{
+
+	header
+	{
+	margin-left: 0;
+	margin-right: 0;
+	}
+
+	.logo
+	{
+		height: auto;
+		margin-left: 20px;
+	}
+	
+	body
+	{
+		width: 100%;
+		margin: 0;
+	}
+	
+	.nav
+	{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	
+	.iphone
+	{
+		display: flex;
+		align-items: center;
+		width: 100%;
+		order: 3;
+	}
+	
+	.menu
+	{
+		margin-right: 0;
+		width: 50%;
+		height: 50px;
+		border-top: none;
+		border-bottom: 3px solid #0065FC;
+		justify-content: center;
+	}
+	
+	.menu2
+	{
+		margin-right: 20px;
+	}
+	
+	.activités
+	{
+		width: 50%;
+		height: 50px;
+		text-align: center;
+		border-bottom: 3px solid #F2F2F2;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.bouton
+	{
+		width: 100%;
+	}
+	
+	.bouton i
+{
+	background-color: #F2F2F2;
+	color: black;
+	border-radius: 10px 0 0 10px;
+	display: inline-block;
+	width: 70px;
+	display: flex;
+	padding: 9px 9px 9px 9px;
+	margin-left: 20px;
+}
+	
+	button
+	{
+		background-color: #0065FC;
+		color: white;
+		border-radius: 0 10px 10px 0;
+		width: 130px;
+	}
+
+	input
+	{
+		width: 50%;
+		border: 0.5px solid #F2F2F2;
+	}
+
+
+	#conteneur
+	{
+		display: flex;
+		flex-direction: column-reverse;
+		padding: 0;
+		margin: 0;
+		width: 100%;
+	}
+	
+	.titre
+	{
+		margin-left: 20px;
+	}
+	
+	.sous-titre
+	{
+		margin-left: 20px;
+	}
+	
+	.logements
+	{
+		height: 30px;
+	}
+	
+	ul
+	{
+		border: 1px solid white;
+		background-color: white;
+		padding-left: 10px;
+		display: flex;
+		flex-wrap: wrap;
+		list-style-type: none;
+	}
+
+	.filtres i
+	{
+		background-color: #DEEBFF;
+		color: black;
+		border-radius: 50px;
+		display: inline-block;
+		height: 100%;   
+		width: 40px;
+		margin-right: 10px;
+		display: flex;
+		justify-content: center;
+		padding-left: 0px;
+	}
+
+	.filtres
+	{
+		margin: 5px;
+	}
+
+	li
+	{
+		border: 2px solid #D9D9D9;
+		border-radius: 50px;
+		margin: 10px;
+		align-items: center;
+		justify-content: center;
+		width: auto;
+		display: flex;
+	}
+
+	.filtres:hover
+	{
+		background-color: #DEEBFF;
+	}
+
+	.filtre
+	{
+		margin-left: 10px;
+		margin-bottom: 0;
+		margin-right: 250px;
+		display: flex;
+		justify-content: flex-start;
+	}
+	
+	.logements
+	{
+		margin-left: 20px;
+	}
+	
+	.img2
+	{
+		width: 45%;
+		border-radius: 20px 0 0 20px;
+		float: left;
+		object-fit: cover;
+		display: flex;
+	}
+
+	.img1
+	{
+		border-radius: 20px 20px 0 0;
+		display: flex;
+		padding: 5px;
+	}
+
+	.img3
+	{
+		height: 75%;
+		object-fit: cover;
+		border-radius: 20px 20px 0 0;
+	}
+
+	.img4
+	{
+		height: 75%;
+		object-fit: cover;
+		border-radius: 20px 20px 0 0;
+	}
+
+	.img5
+	{
+		height: 75%;
+		object-fit: cover;
+		border-radius: 20px 20px 0 0;
+	}
+
+	.img6
+	{
+		height: 75%;
+		object-fit: cover;
+		border-radius: 20px 20px 0 0;
+	}
+
+	.img7
+	{
+		height: 75%;
+		object-fit: cover;
+		border-radius: 20px 20px 0 0;
+	}
+	
+	.populaires
+	{
+		width: 100%;
+		background-color: #F2F2F2;
+		margin: 0;
+		padding: 0;
+		border-radius: 0 0 0 0;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.popu
+	{
+		margin: 5px 20px 5px 20px;
+	}
+	
+	h3
+	{
+		padding-left: 20px;
+		padding-right: 50px;
+	}
+	
+	.Populaire
+	{
+		display: flex;
+		flex-direction: column;
+	}	
+	
+	.hébergement
+	{
+		width: 90%;
+		height: auto;
+		border-radius: 20px;
+		cursor: pointer;
+		padding: 0;
+		margin: auto;
+	}
+	
+	.Héberge
+	{
+		background-color: white;
+		border: 1px solid white;
+		border-radius: 20px;
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	.texte
+	{
+		margin-left: 30px;
+	}
+
+	#héberge1
+	{
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+		width: 100%;
+	}
+
+	#héberge2
+	{
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+	}
+	
+	.aff
+	{
+		padding-left: 20px;
+		margin-left: 0;
+	}
+	
+	.activ
+	{
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		padding-right: 0;
+		margin: 0;
+		width: 100%;
+	}
+
+	.Activité
+	{
+		margin-left: 0;
+	}
+
+	.activité1
+	{
+		border: 1px solid white;
+		background-color: white;
+		margin: auto;
+		margin-bottom: 25px;
+		overflow: hidden;
+		border-radius: 20px;
+		width: 90%;
+		height: 250px;
+		box-shadow: 1px 1px 12px #D9D9D9;
+	}
+
+	.activité2
+	{
+		border: 1px solid white;
+		background-color: white;
+		border-radius: 20px;
+		width: 90%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+	}
+
+	.activité21
+	{
+		border: 1px solid white;
+		background-color: white;
+		margin: auto;
+		margin-bottom: 25px;
+		overflow: hidden;
+		border-radius: 20px;
+		width: 100%;
+		height: 250px;
+		box-shadow: 1px 1px 12px #D9D9D9;
+	}
+
+	.activité22
+	{
+		border: 1px solid white;
+		background-color: white;
+		margin: auto;
+		margin-bottom: 25px;
+		overflow: hidden;
+		border-radius: 20px;
+		width: 100%;
+		height: 250px;
+		box-shadow: 1px 1px 12px #D9D9D9;
+	}
+
+	.activité3
+	{
+		border: 1px solid white;
+		background-color: white;
+		margin: auto;
+		margin-bottom: 25px;
+		overflow: hidden;
+		border-radius: 20px;
+		width: 90%;
+		height: 250px;
+		box-shadow: 1px 1px 12px #D9D9D9;
+	}
+
+	.activité4
+	{
+		border: 1px solid white;
+		background-color: white;
+		border-radius: 20px;
+		width: 90%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+	}
+
+	.activité41
+	{
+		border: 1px solid white;
+		background-color: white;
+		margin: auto;
+		margin-bottom: 25px;
+		overflow: hidden;
+		border-radius: 20px;
+		width: 100%;
+		height: 250px;
+		box-shadow: 1px 1px 12px #D9D9D9;
+	}
+
+	.activité42
+	{
+		border: 1px solid white;
+		background-color: white;
+		margin: auto;
+		margin-bottom: 25px;
+		overflow: hidden;
+		border-radius: 20px;
+		width: 100%;
+		height: 250px;
+		box-shadow: 1px 1px 12px #D9D9D9;
+	}
+
+	footer
+	{
+		display: flex;
+		flex-direction: column;
+		margin-right: 0;
+		margin-left: 0;
+		margin-top: 30px;
+		width: 100%;
+		padding-top: 30px;
+	}
+
+	.element:nth-child(1)
+	{
+		width: 80%;
+		margin: 0;
+		margin-bottom: 25px;
+		padding-left: 25px;
+	}
+	
+	.element:nth-child(2)
+	{
+		width: 80%;
+		margin: 0;
+		margin-bottom: 25px;
+		padding-left: 25px;
+	}	
+	
+	.element:nth-child(3)
+	{
+		width: 80%;
+		margin: 0;
+		margin-bottom: 25px;
+		padding-left: 25px;
+	}
+
+}
+
