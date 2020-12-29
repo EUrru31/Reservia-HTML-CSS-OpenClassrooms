@@ -982,7 +982,7 @@ footer strong
 
 }
 
-@media screen and (min-width: 415px) and (max-width: 1023px)
+@media screen and (min-width: 481px) and (max-width: 1024px)
 {
 	.logo
 	{
@@ -1023,12 +1023,7 @@ footer strong
 	{
 		font-size: 0.7em;
 	}
-	
-	.menu
-	{
-		margin-right: 50px;
-	}
-	
+		
 	.bouton
 	{
 		width: 100%;
@@ -1353,7 +1348,7 @@ footer strong
 		width: 65%;
 		height: auto;
 		display: flex;
-		}
+	}
 
 	.activité41
 	{
@@ -1417,5 +1412,4 @@ footer strong
 		padding-left: 25px;
 		line-height: 3rem;
 	}
-
 }
