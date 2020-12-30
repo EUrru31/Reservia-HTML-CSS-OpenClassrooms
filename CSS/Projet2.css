@@ -199,7 +199,6 @@ li
 	height: 160px;
 	border-radius: 20px 0 0 20px;
 	float: left;
-	margin: 0 20px 0 0;
 	object-fit: cover;
 }
 
@@ -253,6 +252,9 @@ li
 	.texte2
 	{
 		margin-left: 5px;
+		padding-right: 10px;
+		margin-block-start: 5px;
+		margin-block-end: 0;
 	}
 	
 	.texte3
@@ -462,9 +464,7 @@ h3
 
 .texte
 {
-	margin-left: 10px;
 	font-size: 1em;
-	padding-right: 5px;
 }
 
 
@@ -505,7 +505,7 @@ footer strong
 	line-height: 2rem;
 }
 
-@media screen and (min-width: 481px) and (max-width: 1024px)
+@media screen and (min-width: 581px) and (max-width: 1024px)
 {
 	.logo
 	{
@@ -545,6 +545,7 @@ footer strong
 	{
 		margin-right: 0;
 		width: 50%;
+		height: 70px;
 		border-top: none;
 		border-bottom: 5px solid #0065FC;
 		justify-content: center;
@@ -558,7 +559,7 @@ footer strong
 	.activités
 	{
 		width: 50%;
-		height: 100px;
+		height: 70px;
 		text-align: center;
 		border-bottom: 5px solid #F2F2F2;
 		display: flex;
@@ -642,11 +643,9 @@ footer strong
 
 	.img2
 	{
-		width: 45%;
-		height: 250px;
-		border-radius: 50px 0 0 50px;
-		float: left;
-		object-fit: cover;
+		width: 100%;
+		height: 140px;
+		border-radius: 50px 50px 0 0;
 	}
 
 	.img1
@@ -659,7 +658,7 @@ footer strong
 	.img3
 	{
 		width: 100%;
-		height: 160px;
+		height: 140px;
 		object-fit: cover;
 		border-radius: 50px 50px 0 0;
 	}
@@ -667,7 +666,7 @@ footer strong
 	.img4
 	{
 		width: 100%;
-		height: 160px;
+		height: 140px;
 		object-fit: cover;
 		border-radius: 50px 50px 0 0;
 	}
@@ -675,7 +674,7 @@ footer strong
 	.img5
 	{
 		width: 100%;
-		height: 160px;
+		height: 140px;
 		object-fit: cover;
 		border-radius: 50px 50px 0 0;
 	}
@@ -683,7 +682,7 @@ footer strong
 	.img6
 	{
 		width: 100%;
-		height: 160px;
+		height: 140px;
 		object-fit: cover;
 		border-radius: 50px 50px 0 0;
 	}
@@ -691,7 +690,7 @@ footer strong
 	.img7
 	{
 		width: 100%;
-		height: 160px;
+		height: 140px;
 		object-fit: cover;
 		border-radius: 50px 50px 0 0;
 	}
@@ -724,6 +723,8 @@ footer strong
 		width: 30%;
 		border-radius: 50px;
 		margin-left: 15px;
+		display: flex;
+		flex-direction: column;
 	}
 	
 	.etoile
@@ -768,7 +769,7 @@ footer strong
 		display: flex;
 		flex-wrap: wrap;
 		height: auto;
-		padding: 25px 5px 25px 5px;
+		padding: 25px 0 25px 0;
 		margin: 0;
 		width: 100%;
 	}
@@ -785,19 +786,17 @@ footer strong
 
 	.activité1
 	{
-		border: 1px solid white;
 		background-color: white;
 		margin: 20px;
 		overflow: hidden;
 		border-radius: 50px;
 		width: 30%;
-		height: 250px;
+		height: 200px;
 		box-shadow: 1px 1px 12px #D9D9D9;
 	}
 
 	.activité2
 	{
-		border: 1px solid white;
 		background-color: white;
 		border-radius: 50px;
 		width: 65%;
@@ -807,43 +806,39 @@ footer strong
 
 	.activité21
 	{
-		border: 1px solid white;
 		background-color: white;
 		margin: 20px 10px 20px 0;
 		overflow: hidden;
 		border-radius: 50px;
 		width: 100%;
-		height: 250px;
+		height: 200px;
 		box-shadow: 1px 1px 12px #D9D9D9;
 	}
 
 	.activité22
 	{
-		border: 1px solid white;
 		background-color: white;
 		margin: 20px 20px 20px 10px;
 		overflow: hidden;
 		border-radius: 50px;
 		width: 100%;
-		height: 250px;
+		height: 200px;
 		box-shadow: 1px 1px 12px #D9D9D9;
 	}
 
 	.activité3
 	{
-		border: 1px solid white;
 		background-color: white;
 		margin: 20px;
 		overflow: hidden;
 		border-radius: 50px;
 		width: 30%;
-		height: 250px;
+		height: 200px;
 		box-shadow: 1px 1px 12px #D9D9D9;
 	}
 
 	.activité4
 	{
-		border: 1px solid white;
 		background-color: white;
 		border-radius: 50px;
 		width: 65%;
@@ -853,25 +848,23 @@ footer strong
 
 	.activité41
 	{
-		border: 1px solid white;
 		background-color: white;
 		margin: 20px 10px 20px 0;
 		overflow: hidden;
 		border-radius: 50px;
 		width: 100%;
-		height: 250px;
+		height: 200px;
 		box-shadow: 1px 1px 12px #D9D9D9;
 	}
 
 	.activité42
 	{
-		border: 1px solid white;
 		background-color: white;
 		margin: 20px 20px 20px 10px;
 		overflow: hidden;
 		border-radius: 50px;
 		width: 100%;
-		height: 250px;
+		height: 200px;
 		box-shadow: 1px 1px 12px #D9D9D9;
 	}
 
@@ -907,7 +900,7 @@ footer strong
 	}
 }
 
-@media all and (max-width: 480px)
+@media all and (max-width: 580px)
 {
 
 	header
