@@ -98,6 +98,7 @@ header
 	margin-left: 50px;
 	font-size: 1.2em;
 	font-weight: bold;
+	margin-right: 50px;
 }
 
 .sous-titre
@@ -122,12 +123,13 @@ header
 
 .fa-search
 {
-	display: none;
+	display: none !important;
 }
 
 .rechercher
 {
 	display: flex;
+	justify-content: center;
 }
 
 .bouton
@@ -213,9 +215,9 @@ li
 .filtres i 
 {
 	display: flex;
+	justify-content: center;
 	align-items: center;
-	vertical-align: middle;
-	padding-left: 10px;
+	width: 45px;
 	height: 45px; 
 }
 
@@ -653,12 +655,13 @@ footer strong
 
 	.fa-search
 	{
-		display: none;
+		display: none !important;
 	}
 
 	.rechercher
 	{
 		display: flex;
+		justify-content: center;
 	}
 
 	
@@ -1087,7 +1090,8 @@ footer strong
 
 	.fa-search
 	{
-		display: flex;
+		display: flex !important;
+		justify-content: center;
 	}
 
 	.rechercher
@@ -1251,6 +1255,7 @@ footer strong
 		background-color: #F2F2F2;
 		margin: 0;
 		padding: 0;
+		padding-bottom: 30px;
 		border-radius: 0 0 0 0;
 		display: flex;
 		flex-direction: column;
@@ -1264,7 +1269,7 @@ footer strong
 	h3
 	{
 		padding-left: 20px;
-		padding-right: 50px;
+		padding-right: 20px;
 	}
 	
 	.Populaire
