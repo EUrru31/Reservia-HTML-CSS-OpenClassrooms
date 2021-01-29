@@ -231,7 +231,7 @@ li
 {
 	width: 100%;
 	height: 130px;
-	border-radius: 20px 20px 0 0;
+	border-radius: 16px 16px 0 0;
 	object-fit: cover;
 }
 
@@ -239,7 +239,7 @@ li
 {
 	width: 40%;
 	height: 160px;
-	border-radius: 20px 0 0 20px;
+	border-radius: 16px 0 0 16px;
 	float: left;
 	object-fit: cover;
 }
@@ -249,7 +249,7 @@ li
 	width: 100%;
 	height: 90%;
 	object-fit: cover;
-	border-radius: 20px 20px 0 0;
+	border-radius: 16px 16px 0 0;
 }
 
 .img4
@@ -257,7 +257,7 @@ li
 	width: 100%;
 	height: 83%;
 	object-fit: cover;
-	border-radius: 20px 20px 0 0;
+	border-radius: 16px 16px 0 0;
 }
 
 .img5
@@ -265,7 +265,7 @@ li
 	width: 100%;
 	height: 70%;
 	object-fit: cover;
-	border-radius: 20px 20px 0 0;
+	border-radius: 16px 16px 0 0;
 }
 
 .img6
@@ -273,7 +273,7 @@ li
 	width: 100%;
 	height: 150px;
 	object-fit: cover;
-	border-radius: 20px 20px 0 0;
+	border-radius: 16px 16px 0 0;
 }
 
 .img7
@@ -281,7 +281,7 @@ li
 	width: 100%;
 	height: 79%;
 	object-fit: cover;
-	border-radius: 20px 20px 0 0;
+	border-radius: 16px 16px 0 0;
 }
 
 .texte1
@@ -726,54 +726,37 @@ footer strong
 	{
 		width: 100%;
 		height: 140px;
-		border-radius: 50px 50px 0 0;
+		border-radius: 16px 16px 0 0;
 	}
 
 	.img1
 	{
-		width: 100%;
 		height: 140px;
-		border-radius: 50px 50px 0 0;
 	}
 
 	.img3
 	{
-		width: 100%;
 		height: 140px;
-		object-fit: cover;
-		border-radius: 50px 50px 0 0;
 	}
 
 	.img4
 	{
-		width: 100%;
 		height: 140px;
-		object-fit: cover;
-		border-radius: 50px 50px 0 0;
 	}
 
 	.img5
 	{
-		width: 100%;
 		height: 140px;
-		object-fit: cover;
-		border-radius: 50px 50px 0 0;
 	}
 
 	.img6
 	{
-		width: 100%;
 		height: 140px;
-		object-fit: cover;
-		border-radius: 50px 50px 0 0;
 	}
 
 	.img7
 	{
-		width: 100%;
 		height: 140px;
-		object-fit: cover;
-		border-radius: 50px 50px 0 0;
 	}
 	
 	.populaires
@@ -801,7 +784,7 @@ footer strong
 	{
 		height: 250px;
 		width: 30%;
-		border-radius: 50px;
+		border-radius: 20px;
 		margin-left: 15px;
 		display: flex;
 		flex-direction: column;
@@ -818,7 +801,7 @@ footer strong
 	{
 		width: 33%;
 		height: 250px;
-		border-radius: 50px;
+		border-radius: 20px;
 		cursor: pointer;
 		margin-left: 13px;
 	}
@@ -826,7 +809,7 @@ footer strong
 	.Héberge
 	{
 		background-color: white;
-		border-radius: 50px;
+		border-radius: 20px;
 		width: 100%;
 		height: auto;
 		margin: 0;
@@ -865,7 +848,7 @@ footer strong
 		background-color: white;
 		margin-left: 12px;
 		overflow: hidden;
-		border-radius: 50px;
+		border-radius: 20px;
 		width: 30%;
 		height: 200px;
 		box-shadow: 1px 1px 12px #D9D9D9;
@@ -874,7 +857,7 @@ footer strong
 	.activité2
 	{
 		background-color: white;
-		border-radius: 50px;
+		border-radius: 20px;
 		width: 65%;
 		height: auto;
 		display: flex;
@@ -885,7 +868,7 @@ footer strong
 		background-color: white;
 		margin: 10px 10px 20px 0;
 		overflow: hidden;
-		border-radius: 50px;
+		border-radius: 20px;
 		width: 100%;
 		height: 200px;
 		box-shadow: 1px 1px 12px #D9D9D9;
@@ -896,7 +879,7 @@ footer strong
 		background-color: white;
 		margin: 10px 20px 20px 10px;
 		overflow: hidden;
-		border-radius: 50px;
+		border-radius: 20px;
 		width: 100%;
 		height: 200px;
 		box-shadow: 1px 1px 12px #D9D9D9;
@@ -907,7 +890,7 @@ footer strong
 		background-color: white;
 		margin-left: 12px;
 		overflow: hidden;
-		border-radius: 50px;
+		border-radius: 20px;
 		width: 30%;
 		height: 200px;
 		box-shadow: 1px 1px 12px #D9D9D9;
@@ -916,7 +899,7 @@ footer strong
 	.activité4
 	{
 		background-color: white;
-		border-radius: 50px;
+		border-radius: 20px;
 		width: 65%;
 		height: auto;
 		display: flex;
@@ -927,7 +910,7 @@ footer strong
 		background-color: white;
 		margin: 10px 10px 20px 0;
 		overflow: hidden;
-		border-radius: 50px;
+		border-radius: 20px;
 		width: 100%;
 		height: 200px;
 		box-shadow: 1px 1px 12px #D9D9D9;
@@ -938,7 +921,7 @@ footer strong
 		background-color: white;
 		margin: 10px 20px 20px 10px;
 		overflow: hidden;
-		border-radius: 50px;
+		border-radius: 20px;
 		width: 100%;
 		height: 200px;
 		box-shadow: 1px 1px 12px #D9D9D9;
@@ -1099,8 +1082,9 @@ footer strong
 	{
 		background-color: #0065FC;
 		color: white;
-		border-radius: 0 10px 10px 0;
+		border-radius: 10px;
 		width: 40px;
+		margin-left: -10px;
 	}
 
 	input
@@ -1150,7 +1134,7 @@ footer strong
 		border-radius: 50px;
 		display: inline-block;
 		height: 45px;  
-		width: 40px;
+		width: 45px;
 		margin-right: 10px;
 		display: flex;
 		justify-content: center;
@@ -1195,15 +1179,13 @@ footer strong
 	.img2
 	{
 		width: 45%;
-		border-radius: 20px 0 0 20px;
+		border-radius: 16px 0 0 16px;
 		float: left;
-		object-fit: cover;
 		display: flex;
 	}
 
 	.img1
 	{
-		border-radius: 20px 20px 0 0;
 		display: flex;
 		padding: 5px;
 		width: 97%;
@@ -1212,36 +1194,26 @@ footer strong
 	.img3
 	{
 		height: 75%;
-		object-fit: cover;
-		border-radius: 20px 20px 0 0;
 	}
 
 	.img4
 	{
 		height: 75%;
-		object-fit: cover;
-		border-radius: 20px 20px 0 0;
 	}
 
 	.img5
 	{
 		height: 75%;
-		object-fit: cover;
-		border-radius: 20px 20px 0 0;
 	}
 
 	.img6
 	{
 		height: 190px;
-		object-fit: cover;
-		border-radius: 20px 20px 0 0;
 	}
 
 	.img7
 	{
 		height: 75%;
-		object-fit: cover;
-		border-radius: 20px 20px 0 0;
 	}
 
 	.etoile
